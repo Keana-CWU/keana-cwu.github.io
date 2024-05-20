@@ -81,14 +81,14 @@ header, footer {
 
 @font-face {
     font-family: montserrat;
-    src: url(/fonts/montserrat-regular.ttf) format('truetype');
+    src: url(/school-site/fonts/montserrat-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: josefinslab;
-    src: url(/fonts/josefinslab-regular.ttf) format('truetype');
+    src: url(/school-site/fonts-josefinslab-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -102,15 +102,18 @@ html {
 }
 
 h1, h2 {
-
+    font-family: josefinslab, Georgia, serif;
+    letter-spacing: 0.125rem;
 }
 
 h1 {
-
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
 }
 
 h2 {
-
+    font-size: 1.5rem;
 }
 
 
